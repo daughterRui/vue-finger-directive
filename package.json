@@ -1,0 +1,26 @@
+{
+  "name": "vue-finger-directive",
+  "version": "0.1.1",
+  "description": "vue自定义手指指令(点击、单击、长按、双击、拖拽移动、多点触控、滑动、缩放、旋转)",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daughterRui/vue-finger-directive.git"
+  },
+  "keywords": [
+    "vue",
+    "vue-finger",
+    "finger",
+    "directive",
+    "vue-finger-directive"
+  ],
+  "author": "xiaotianyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daughterRui/vue-finger-directive/issues"
+  },
+  "homepage": "https://github.com/daughterRui/vue-finger-directive#readme"
+}
