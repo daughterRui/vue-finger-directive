@@ -58,11 +58,11 @@ v-pinch
   class="floating"
   v-pressMove="{methods: pressMove }"
   ref="floating"
-  v-tap="{methods: tap, args: {index: 1, item:{name: "name", value: "value"}} }"
+  v-tap="{methods: tap, arg: {index: 1, item:{name: "name", value: "value"}} }"
 >
 methods: {
-  pressMove(e, args){
-
+  pressMove(e, arg){
+    console.log('arg', arg)
   },
   tap(){
 
