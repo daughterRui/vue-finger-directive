@@ -56,9 +56,9 @@ v-pinch
 <div
   :style="floatStyle"
   class="floating"
-  v-pressMove="{methods: pressMove, args: 'args' }"
+  v-pressMove="{methods: pressMove }"
   ref="floating"
-  v-tap="{methods: tap }"
+  v-tap="{methods: tap, args: {index: 1, item:{name: "name", value: "value"}} }"
 >
 methods: {
   pressMove(e, args){
