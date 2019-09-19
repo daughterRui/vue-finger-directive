@@ -61,11 +61,11 @@ v-pinch
   v-tap="{methods: tap, arg: {index: 1, item:{name: "name", value: "value"}} }"
 >
 methods: {
-  pressMove(e, arg){
-    console.log('arg', arg)
+  pressMove(){
+    
   },
-  tap(){
-
+  tap(e, arg){
+    console.log('arg', arg)
   }
 }
 ```
